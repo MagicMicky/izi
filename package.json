@@ -1,6 +1,6 @@
 {
   "name": "izi",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,8 @@
   "dependencies": {
     "global": "^4.3.0",
     "performance-now": "^0.2.0",
-    "raf": "^3.2.0"
+    "raf": "^3.2.0",
+    "virtual-dom": "^2.1.1"
   },
   "devDependencies": {
     "ava": "^0.15.2",
