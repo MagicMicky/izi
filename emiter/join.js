@@ -1,7 +1,7 @@
 const isFn = require('../is').fn
 const each = require('../collection/each')
 
-function join(setter, listeners) {
+const join = (setter, listeners) => {
   const data = {}
 
   each((listen, key) => {
